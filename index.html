@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mico Abutin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="w323.jpg" alt="Profile Photo" id="profile-photo">
+                </div>
+                <div class="profile-info">
+                    <h1 class="name">Mico Abutin</h1>
+                    <p class="title">Software Developer & IT Student 2nd year</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Rosario Cavite</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>mikmik42004@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span> (63+) 945-124-4540</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/mik-abutin-203541308/" target="_blank">LinkedIn Profile</a>
+                
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/Mikmik-Source" target="_blank" id="github-link">GitHub Profile</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-facebook"></i>
+                    <a href="https://www.facebook.com/mikmik.abutin" target="_blank">Facebook Profile</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Section -->
+            <section class="section">
+                <h2 class="section-title">About</h2>
+                <p class="about-text">
+                    Passionate software developer with expertise in modern web technologies and a strong foundation in computer science. 
+                    Committed to creating elegant solutions and continuously learning new technologies to stay at the forefront of innovation.
+                </p>
+            </section>
+
+            <!-- Education Section -->
+            <section class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="education-item">
+                    <div class="education-header">
+                        <h3 class="degree">Bachelor of Information Technology</h3>
+                        <span class="year">2023 - 2025</span>
+                    </div>
+                    <p class="institution">San Sebastian College-Recoletos de Cavite</p>
+                    <p class="gpa">GPA: 2.4/2.0</p>
+                    <p class="description">Relevant Coursework: Website Development, Software Development, Data Structures, Algorithms & Database Systems</p>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="section">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="position">Software Developer</h3>
+                        <span class="duration">2024 - Present</span>
+                    </div>
+                    <p class="company">System Management Tracking System</p>
+                    <ul class="achievements">
+                        <li>Developed a program using Java and MySQL</li>
+                        <li>Made it by myself, Google and A.I. assistants</li>
+                        <li>Implemented Point of Sale EcoSystem, ( Coffee Shop Management System ) </li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="position">Website Developer</h3>
+                        <span class="duration">Summer 2023</span>
+                    </div>
+                    <p class="company">Cookie Monster</p>
+                    <ul class="achievements">
+                        <li>Built responsive web interfaces using modern JavaScript frameworks</li>
+                        <li>Participated in agile development </li>
+                
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="section">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Programming Languages</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">C#</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Frameworks & Libraries</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Tools & Technologies</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- GitHub Projects Section -->
+            <section class="section">
+                <h2 class="section-title">GitHub Projects</h2>
+                <div class="github-section">
+                    <div class="github-controls">
+                        <input type="text" id="github-username" placeholder="Enter GitHub username" value="Mikmik-Source">
+                        <button id="load-projects" class="btn-primary">Load Projects</button>
+                    </div>
+                    <div id="projects-container" class="projects-container">
+                        <div class="loading-message">Click "Load Projects" to fetch your GitHub repositories</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section class="section">
+                <h2 class="section-title">Certifications</h2>
+                <div class="certification-item">
+                    <h4>Certified Website Architecture</h4>
+                    <p class="cert-issuer">Saylor Web Services</p>
+                    <span class="cert-date">2024</span>
+                </div>
+                <div class="certification-item">
+                    <h4>CS302: Software Engineering</h4>
+                    <p class="cert-issuer">Saylor Engineering Services</p>
+                    <span class="cert-date">2024</span>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p> 2024 Mico Abutin. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
